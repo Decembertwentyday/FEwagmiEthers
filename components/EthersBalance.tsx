@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { getEthersContract } from '@/lib/ethers';
 import { formatEther } from 'ethers';
-
+//
 export default function EthersBalance() {
     const [balance, setBalance] = useState<string | null>(null);
     const [loading, setLoading] = useState(false);

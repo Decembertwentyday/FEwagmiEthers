@@ -3,7 +3,7 @@ import { useWriteContract, useWaitForTransactionReceipt } from 'wagmi';
 import { CONTRACT_ADDRESS, CONTRACT_ABI } from '@/lib/contract';
 import { parseEther } from 'viem';
 import { useState, useEffect } from 'react';
-
+//
 export default function Deposit({ onSuccess }: { onSuccess: () => void }) {
     const [amount, setAmount] = useState(''); // react 原生hook 更新状态
     useEffect(() => {

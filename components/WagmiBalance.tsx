@@ -2,7 +2,7 @@
 import { useAccount, useReadContract } from 'wagmi';
 import { CONTRACT_ADDRESS, CONTRACT_ABI } from '@/lib/contract';
 import { formatEther } from 'viem';
-
+//
 export default function WagmiBalance() {
     const { address, isConnected } = useAccount(); //isConnected  是否已连接
 

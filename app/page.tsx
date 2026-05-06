@@ -5,7 +5,7 @@ import Deposit from '@/components/Deposit';
 import Transfer from '@/components/Transfer';
 import { useState } from 'react'
 export default function Home() {
-  // 用 refreshKey 变化来触发子组件重新获取数据
+  // 用 refreshKey 变化来触发子组件重新获取数据1
   const [refreshKey, setRefreshKey] = useState(0);
   const refreshBalance = () => setRefreshKey(k => k + 1);
   return (

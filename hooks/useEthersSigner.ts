@@ -2,6 +2,7 @@ import { useWalletClient } from 'wagmi';
 import { BrowserProvider, JsonRpcSigner } from 'ethers';
 // BrowserProvider： 创建一个与当前浏览器的Ethereum钱包进行交互的提供者
 // JsonRpcSigner： 一个用于与Ethereum钱包进行交互的类 的签名者类
+//
 import { useMemo } from 'react';
 // 参数是 WalletClient：客户端的对象种转为ethers的签名者对象
 export function walletClientToSigner(walletClient: any): JsonRpcSigner | null {

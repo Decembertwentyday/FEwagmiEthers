@@ -3,7 +3,7 @@ import { useAccount } from 'wagmi';
 import { useEthersContractFromWagmi } from '@/hooks/useEthersContractFromWagmi';
 import { formatEther } from 'ethers';
 import { useEffect, useState } from 'react';
-
+//
 export default function WagmiEthersBalance() {
     const { address } = useAccount();
     const contract = useEthersContractFromWagmi();

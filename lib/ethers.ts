@@ -1,6 +1,6 @@
 import { BrowserProvider, Contract } from 'ethers';
 import { CONTRACT_ADDRESS, CONTRACT_ABI } from './contract';
-
+//
 export async function getEthersContract() {
   // window.ethereum：这是 MetaMask 等钱包注入到浏览器的对象
   // 作用：检测用户是否安装了加密钱包（如 MetaMask）

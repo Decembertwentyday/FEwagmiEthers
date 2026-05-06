@@ -1,5 +1,5 @@
 export const CONTRACT_ADDRESS = '0x5FbDB2315678afecb367f032d93F642f64180aa3'; // 替换为你部署的地址
-
+//
 export const CONTRACT_ABI = [
   "function getBalance(address user) external view returns (uint256)",
   "function deposit() external payable",

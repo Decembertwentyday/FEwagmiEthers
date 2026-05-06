@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { getEthersContract } from '@/lib/ethers';
 import { parseEther } from 'ethers';
-
+//
 export default function EthersTransfer({ onSuccess }: { onSuccess: () => void }) {
     const [to, setTo] = useState('');
     const [amount, setAmount] = useState('');

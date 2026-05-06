@@ -3,7 +3,7 @@ import { useWriteContract, useWaitForTransactionReceipt, useSimulateContract } f
 import { CONTRACT_ADDRESS, CONTRACT_ABI } from '@/lib/contract';
 import { parseEther } from 'viem';
 import {useEffect, useState} from 'react';
-
+//
 export default function Transfer({ onSuccess}: { onSuccess: () => void }) {
     const [to, setTo] = useState('');
     const [amount, setAmount] = useState('');

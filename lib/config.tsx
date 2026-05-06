@@ -2,7 +2,7 @@
 import {getDefaultConfig} from '@rainbow-me/rainbowkit';
 import {mainnet, sepolia, hardhat} from 'wagmi/chains';
 import {http} from 'viem';
-
+//
 // 2. 创建配置函数（而不是直接创建配置对象）
 export const createConfig = () => {
     return getDefaultConfig({
