@@ -4,6 +4,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+## 创建项目
+## npx create-next-app@latest frontend --typescript --tailwind --eslint
+## node版本22
+## 前端依赖： npm install @rainbow-me/rainbowkit wagmi viem ethers @tanstack/react-query
+
 ```bash
 npm run dev
 # or
